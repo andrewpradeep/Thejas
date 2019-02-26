@@ -6,8 +6,8 @@
 </template>
 
 <script>
-export default {
-  name: "Card",
+  export default {
+    name : "Card",
     data(){
       return {
           cardtitle : this.title
@@ -15,7 +15,8 @@ export default {
     },
   props: ["title"],
   methods: {
-    openOptions: function() {
+    openOptions: function()
+    {
       alert("options have been loaded");
     }
   }
